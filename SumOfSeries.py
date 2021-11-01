@@ -1,5 +1,6 @@
-n=6
-x=2
+import os
+n = int(os.getenv("n"))
+x=int
 sum1=1
 for i in range(2,n+1):
     sum1=sum1-((x**i)/i)
