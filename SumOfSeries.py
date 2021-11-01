@@ -1,6 +1,6 @@
 import os
 n = int(os.getenv("n"))
-x=1
+x = int(os.getenv("x"))
 sum1=1
 for i in range(2,n+1):
     sum1=sum1-((x**i)/i)
